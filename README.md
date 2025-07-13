@@ -2,7 +2,7 @@
 
 This project creates a complete web server infrastructure on AWS using Terraform, including VPC, subnet, security group, and EC2 instance with Apache web server.
 
-## 🏗️ Infrastructure Components
+## Infrastructure Components
 
 - **VPC**: Custom Virtual Private Cloud (10.0.0.0/16)
 - **Subnet**: Public subnet (10.0.0.0/24) with auto-assign public IP
@@ -11,13 +11,13 @@ This project creates a complete web server infrastructure on AWS using Terraform
 - **Security Group**: Allows HTTP (port 80) and SSH (port 22) access
 - **EC2 Instance**: t2.micro Amazon Linux 2 instance with Apache web server
 
-## 📋 Prerequisites
+## Prerequisites
 
 - AWS CLI configured with appropriate credentials
 - Terraform installed (version >= 1.0)
 - AWS Key Pair created in your target region (default: "my-key")
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Clone this repository**
    ```bash
@@ -44,7 +44,7 @@ This project creates a complete web server infrastructure on AWS using Terraform
    - Use the public IP address shown in the output
    - Open `http://<public-ip>` in your browser
 
-## 🔧 Configuration Variables
+## Configuration Variables
 
 | Variable | Description | Default |
 |----------|-------------|---------|
@@ -54,26 +54,26 @@ This project creates a complete web server infrastructure on AWS using Terraform
 | `vpc_cidr` | CIDR block for VPC | `10.0.0.0/16` |
 | `subnet_cidr` | CIDR block for subnet | `10.0.0.0/24` |
 
-## 📤 Outputs
+## Outputs
 
 - `instance_public_ip`: Public IP address of the EC2 instance
 - `instance_public_dns`: Public DNS of the EC2 instance
 - `vpc_id`: ID of the created VPC
 - `subnet_id`: ID of the created subnet
 - `web_url`: Direct URL to access the web server
-- ### ✅ Example Output
+- ### Example Output
 
 ![Terraform Apply Output](https://github.com/kerolos-10/aws-terraform-simple-webserver/blob/6fe82ebe90e2406544ffd7beab18405612b11b61/terraform-output.png.png)
 
 
-## 🧹 Cleanup
+## Cleanup
 
 To destroy the infrastructure:
 ```bash
 terraform destroy
 ```
 
-## 🔒 Security Notes
+## Security Notes
 
 - This configuration allows SSH and HTTP access from anywhere (0.0.0.0/0)
 - For production use, restrict access to specific IP ranges
@@ -91,11 +91,11 @@ aws-terraform-webserver/
 └── README.md              # This file
 ```
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License.
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -103,6 +103,15 @@ This project is licensed under the MIT License.
 4. Push to the branch
 5. Create a Pull Request
 
-## 📞 Support
+## Support & Contact
 
-If you encounter any issues, please create an issue in the GitHub repository.
+Feel free to reach out if you have questions or want to collaborate:
+
+- **👨‍💻 Name**: Kerolos Mamdouh  
+- **📍 Location**: Cairo, Egypt  
+- **📧 Email**: [kerolosmamdouh20@gmail.com](mailto:kerolosmamdouh20@gmail.com)  
+- **💼 LinkedIn**: [linkedin.com/in/kerolos-mamdouh-90a11b26b](https://www.linkedin.com/in/kerolos-mamdouh-90a11b26b)  
+- **💻 GitHub**: [github.com/kerolos-10](https://github.com/kerolos-10)  
+
+I’m a DevOps Engineer & RHCSA-certified System Administrator, passionate about building infrastructure, automation, and cloud-native solutions 
+
