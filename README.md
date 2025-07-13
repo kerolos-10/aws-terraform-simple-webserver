@@ -63,7 +63,7 @@ This project creates a complete web server infrastructure on AWS using Terraform
 - `web_url`: Direct URL to access the web server
 - ### ✅ Example Output
 
-![Terraform Apply Output](terraform-output.png)
+![Terraform Apply Output](https://github.com/kerolos-10/aws-terraform-simple-webserver/blob/6fe82ebe90e2406544ffd7beab18405612b11b61/terraform-output.png.png)
 
 
 ## 🧹 Cleanup
