@@ -1,0 +1,17 @@
+# terraform.tfvars.example
+
+# AWS Region
+aws_region = "us-east-1"
+
+# EC2 Instance Type
+instance_type = "t2.micro"
+
+# AWS Key Pair Name (must exist in your AWS account)
+key_name = "my-key"
+
+# VPC and Subnet
+vpc_cidr    = "10.0.0.0/16"
+subnet_cidr = "10.0.0.0/24"
+
+# AMI ID (example: Amazon Linux 2 in us-east-1)
+ami_id = "ami-0150ccaf51ab55a51"
