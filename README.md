@@ -1,4 +1,4 @@
-# AWS Web Server Infrastructure with Terraform
+# AWS simpel Web Server Infrastructure with Terraform
 
 This project creates a complete web server infrastructure on AWS using Terraform, including VPC, subnet, security group, and EC2 instance with Apache web server.
 
@@ -61,6 +61,10 @@ This project creates a complete web server infrastructure on AWS using Terraform
 - `vpc_id`: ID of the created VPC
 - `subnet_id`: ID of the created subnet
 - `web_url`: Direct URL to access the web server
+- ### ✅ Example Output
+
+![Terraform Apply Output](terraform-output.png)
+
 
 ## 🧹 Cleanup
 
